@@ -17,13 +17,7 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import { Header } from 'react-native/Libraries/NewAppScreen';
 import { Section } from './src/HealthConnect';
 
 
@@ -34,7 +28,7 @@ const App = () => {
         contentInsetAdjustmentBehavior="automatic">
         <Header />
         <View>
-          <Section  />
+          <Section />
         </View>
       </ScrollView>
     </SafeAreaView>
